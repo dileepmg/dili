@@ -1,4 +1,4 @@
-Port Scanner
+# Port Scanner
 Usage: portsanner.py [options]
 
 Options:
