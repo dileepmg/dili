@@ -2,19 +2,19 @@ Port Scanner
 Usage: portsanner.py [options]
 
 Options:
-  -h, --help                 show this help message and exit
+        -h, --help                 show this help message and exit
   
   
-  -s SPORT, --sport=         Add starting port number to scan
+       -s SPORT, --sport=         Add starting port number to scan
   
   
-  -e EPORT, --eport=         Add endingport number to scan
+       -e EPORT, --eport=         Add endingport number to scan
   
   
-  -i HOST, --host=           Add host
+        -i HOST, --host=           Add host
   
   
-  -p PORT, --port            Add single port number to scan
+        -p PORT, --port            Add single port number to scan
   
 
 
