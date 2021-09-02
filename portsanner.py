@@ -28,10 +28,6 @@ elif options.port:
 if not (options.sport and options.eport):
 	options.sport=0 if  not (options.sport) else options.sport
 	options.eport=1024 if not (options.eport) else options.eport
-if (options.sport>options.eport):
-	raise ValueError(Fore.RED,"Starting port number cannot be less than ending port number")
-	exit()
-
 
 try:
 	sport=int(options.sport)
@@ -39,6 +35,12 @@ try:
 except:
 	print(Fore.RED+"[-] Please Enter the correct port number")
 	exit()
+if (sport>eport):
+	raise ValueError(Fore.RED,"Starting port number cannot be less than ending port number")
+	exit()
+
+
+	
 if options.port:
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	if not (s.connect_ex((host,options.port))):
