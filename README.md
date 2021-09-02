@@ -20,9 +20,9 @@ Options:
 ##Python Modules Used
 
 
-  1.[Socket] (https://docs.python.org/3/library/socket.html)
+  1.[Socket](https://docs.python.org/3/library/socket.html)
   
   
   
-  2.[Thread]  (https://docs.python.org/3/library/threading.html)
+  2.[Thread](https://docs.python.org/3/library/threading.html)
 
