@@ -1,5 +1,5 @@
 # Port Scanner
-Usage: Python3 portsanner.py [options]
+Usage: python3 portsanner.py [options]
 
 Options:
         -h, --help                 show this help message and exit
