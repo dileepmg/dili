@@ -50,7 +50,7 @@ if options.port:
 try:
 	host=socket.gethostbyname(options.host)
 except:
-	print(Fore.RED,"[-] Please Enter the correct hostname or ip-address")
+	print(Fore.RED,"[-] Please Enter the correct hostname or ip-address to scan")
 	exit()
 
 def loo():
